@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronaut form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="astronaut1"src="https://i1.faceprep.in/ProGrad/space-man-1.png" alt="Astronaut image 1">
+    <img id="astronaut2"src="https://i1.faceprep.in/ProGrad/space-man-2.png" alt="Astronaut image 2">
+
+    <form action="">
+        <h1>Rocket around the moon with your BFFs</h1>
+        <label class="block-display"for="Country" >Departure Country</label>
+        <select name="Country" id="Country">
+        <option value="india ">India</option>
+        <option value="usa">USA</option>
+        <option value="uae">UAE</option>
+        </select>
+        <label  class="block-display"for="Travellers">Number of space travellers</label>
+        <input type="number" name="Travellers"> 
+        <label class="block-display"for="email  id">Your email id</label>
+        <input type="text" name="email" placeholder="ilovespace@gmail.com">
+        <label class="block-display"for="rent">Do you want to rent a spacesuit?</label>
+        <input type="radio" id="yes" name="rent-button"value="Yes">
+        <label class="rent-label"for="Yes">Yes,please</label>
+        <input type="radio" id="no" name="rent-button"value="No">
+        <label class="rent-label"for="No">No,I have my own</label>
+
+      <input type="button" id="button" value="TAKE US TO SPACE">
+    </form>
+</body>
+</html>
